@@ -1,0 +1,9 @@
+
+.box>div {
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 0.2%;
+	border-radius: 4%;
+	float: left;
+	background-color:#f4cbcb;
+}
