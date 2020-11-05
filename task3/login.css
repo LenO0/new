@@ -1,0 +1,18 @@
+.background {
+    width: 100%;
+	padding-bottom: 20%;
+	border-radius: 2%;
+    background-color:#ebebeb;
+}
+.home {
+    width: 100%;
+	padding-bottom: 80.5%;
+	border-radius: 2%;
+	background-color:#fff;
+}
+.circle { 
+    width: 100px; 
+    height: 100px; 
+    background: red; 
+    border-radius: 50px;
+   } 
