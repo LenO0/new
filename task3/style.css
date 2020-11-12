@@ -47,4 +47,5 @@ i {
 }
 .QR-code:before {
   content: "\e905";
+  margin-left: 95%;
 }
