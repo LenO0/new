@@ -21,7 +21,7 @@ main{
     width: 15em; 
     height: 15em; 
     border-radius: 15em;
-    margin: 10vh auto auto auto;
+    margin: 6vh auto auto auto;
     background-image:url(icons/Q.jpg);
     background-size:100% 100%;
     border: 1px solid #cdcdcd;
