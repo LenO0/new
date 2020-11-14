@@ -1,29 +1,27 @@
-.home {
-    width: 100%;
-	padding-bottom: 60%;
-	border-radius: 2%;
-    background-color:#fff;
- 
-}
-input {
-        border-top: 0;
-        border-left: 0;
-        border-right: 0; 
-        border-color: #cacaca;
-        margin-left:30%;
-    }
-a {text-decoration: none;margin-left:10%;}
-.background {
-    width: 100%;
-	padding-bottom: 30%;
-	border-radius: 2%;
+body{margin: 0;}
+main{
+    position: relative;
     background-color:#ebebeb;
+}
+.home {
+    position: absolute;
+    display: block;
+    left: 0;
+    right:0;
+    height: 70vh;
+    background-color: #fff;
+    border-radius: 2%;
+}
+.background{
+    border-radius: 2%;
+    height: 100vh;
+    background-color: #ebebeb;
 }
 .head {
     width: 15em; 
     height: 15em; 
     border-radius: 15em;
-    margin: auto;
+    margin: 10vh auto auto auto;
     background-image:url(icons/Q.jpg);
     background-size:100% 100%;
     border: 1px solid #cdcdcd;
@@ -33,5 +31,13 @@ a {text-decoration: none;margin-left:10%;}
     height: 20px; 
     background:#36dd0c; 
     border-radius: 20px;
-    margin: 0 auto;
+    margin:-4px auto;
    } 
+input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0; 
+    width: 40%;
+    border-color: #cacaca;
+    margin-left:30%;
+}
